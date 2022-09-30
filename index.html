@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Ordering Website</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- ---google--fonts-- -->
+    <link href="https://fonts.googleapis.com/css2?family=Amita:wght@400;700&display=swap" rel="stylesheet">
+    <!-- !---slick--slider-- -->
+    <link href="./css/slick-theme.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <!-- ---main--css-- -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- ---font-awesome-- -->
+    <script src="https://kit.fontawesome.com/7fc5627514.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-light main-nav-bar">
+        <div class="container">
+
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="header_wrapper collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- first menu -->
+                <ul class="first_menu d-lg-flex">
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Home
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Home 01</a></li>
+                            <li><a class="dropdown-item" href="#">Home 01</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Pages
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Our Menu
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- Logo Div -->
+                <div class="logo">
+                    <a class="navbar-brand" href="#"><img src="./images/download.png" class="img-fluid" alt="logo"></a>
+                </div>
+                <!-- second menu -->
+                <ul class="first_menu  d-lg-flex">
+
+                    <li class="full-menus-wrap nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Blog
+                        </a>
+
+                        <div class="full-menus dropdown-menu">
+                            <div class="d-flex justify-content-between">
+                                <ul>
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+
+
+                                <ul>
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+
+                                <ul>
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            shop
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Contact Us
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <div class="banner-section">
+        <div class="background-inner position-relative">
+            <div class="carausel_item slide text-center">
+                <div class="background-img" style="background-image: url(./images/slide-1.jpg);">
+                    <div class="content d-flex flex-column justify-content-center text-white">
+                        <span>Cake & Bakery</span>
+                        <h2 class="title">Welcome to Bakery</h2>
+                        <h4 class="sub_title">The Best Cake In New York</h4>
+                        <div class="d-flex justify-content-center">
+                            <a class="d-inline-block btn btnhover" href="">About Us</a>
+                            <a class="d-inline-block btn btnsub" href="">Subscribe Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="background-img" style="background-image: url(./images/slide-1.jpg);">
+                    <div class="content d-flex flex-column justify-content-center text-white">
+                        <span>Cake & Bakery</span>
+                        <h2 class="title">Welcome to Bakery</h2>
+                        <h4 class="sub_title">The Best Cake In New York</h4>
+                        <div class="d-flex justify-content-center">
+                            <a class="d-inline-block btn btnhover" href="">About Us</a>
+                            <a class="d-inline-block btn btnsub" href="">Subscribe Now</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="service_section " style="background-image: url(/images/bg5.74609cce.jpg); background-size: 100%;">
+        <div class="container">
+            <div class="row service_list">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                    <div class="card_wrapper text-center section-one"
+                        style="background-image: url(./images/service-one.jpg) ;">
+                        <div class="card_content">
+                            <h2 class="card_title">Macarons</h2>
+                            <p>Lorem ipsum dolor sit.</p>
+                            <div class="seperator style "></div>
+                            <a class="btn btnhover" href=""> More details <i class="fa fa-angle-double-right"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                    <div class="card_wrapper text-center section-one"
+                        style="background-image: url(./images/service-two.jpg) ;">
+                        <div class="card_content">
+                            <h2 class="card_title">Macarons</h2>
+                            <p>Lorem ipsum dolor sit.</p>
+                            <div class="seperator style"></div>
+                            <a class="btn btnhover" href=""> More details <i class="fa fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                    <div class="card_wrapper text-center section-one"
+                        style="background-image: url(./images/service-three.jpg) ;">
+                        <div class="card_content">
+                            <h2 class="card_title">Macarons</h2>
+                            <p>Lorem ipsum dolor sit.</p>
+                            <div class="seperator style "></div>
+                            <a class="btn btnhover" href=""> More details <i class="fa fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                    <div class="card_wrapper text-center section-one"
+                        style="background-image: url(./images/service-four.jpg) ;">
+                        <div class="card_content">
+                            <h2 class="card_title">Macarons</h2>
+                            <p>Lorem ipsum dolor sit.</p>
+                            <div class="seperator style "></div>
+                            <a class="btn btnhover" href=""> More details <i class="fa fa-angle-double-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Cup Cake Start-->
+        <div class="cupcake_section text-center ">
+            <div class="cup-cake-inner text-center">
+                <img src="./images/cake1.a135215d.jpg" alt="">
+            </div>
+            <div class="container">
+                <h2 class="cup-cake-inner">It’s a party and you’re invited</h2>
+                <div class="cake_content text-center">
+                    <h3 class="main_text">Join DexignZone <strong>Bakery</strong>™ to earn Gold level benefits like free
+                        Cakes and food, get free refills, pay and order with your phone, and more.</h3>
+                    <p>Exclusive deals on Cakes, delivered straight to your inbox Join Now</p>
+                </div>
+            </div>
+        </div>
+        <!-- Cup Cake End -->
+
+    </div>
+
+
+    <div class="offser_section content-inner service-area2 bg-img-fix bg-line-top bg-line-bottom "
+        style="background-image: url(./images/bg4.0ce4d4c0.jpg); background-size:cover;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="subheading_sec text-center text-white">
+                        <h2>What Do We Offer For You?</h2>
+                        <p class="text-bold">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has
+                            been
+                            the industry's standard dummy text ever since the 1500s</p>
+                        <div class="seperator style"></div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mb-2">
+                    <div class="images-wrapper">
+                        <img src="./images/pic1.45eaf820.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="row p-3">
+                        <div class="col-lg-6 col-sm-6 mb-3">
+                            <div class="d-flex align-items-center text-white offset-section">
+                                <div class="img-icon">
+                                    <img src="./images/pancake.png" alt="">
+                                </div>
+                                <div class="text_content ms-2">
+                                    <h5>Pancakes</h5>
+                                    <p>Lorem Ipsum is dummy</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-6 m-b30">
+                            <div class="d-flex align-items-center text-white offset-section">
+                                <div class="img-icon">
+                                    <img src="./images/pancake.png" alt="">
+                                </div>
+                                <div class="text_content ms-2">
+                                    <h5>Pancakes</h5>
+                                    <p>Lorem Ipsum is dummy</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-6 m-b30">
+                            <div class="d-flex align-items-center text-white offset-section">
+                                <div class="img-icon">
+                                    <img src="./images/pancake.png" alt="">
+                                </div>
+                                <div class="text_content ms-2">
+                                    <h5>Pancakes</h5>
+                                    <p>Lorem Ipsum is dummy</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-6 m-b30">
+                            <div class="d-flex align-items-center text-white offset-section">
+                                <div class="img-icon">
+                                    <img src="./images/pancake.png" alt="">
+                                </div>
+                                <div class="text_content ms-2">
+                                    <h5>Pancakes</h5>
+                                    <p>Lorem Ipsum is dummy</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-6 m-b30">
+                            <div class="d-flex align-items-center text-white offset-section">
+                                <div class="img-icon">
+                                    <img src="./images/pancake.png" alt="">
+                                </div>
+                                <div class="text_content ms-2">
+                                    <h5>Pancakes</h5>
+                                    <p>Lorem Ipsum is dummy</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-6 m-b30">
+                            <div class="d-flex align-items-center text-white offset-section">
+                                <div class="img-icon">
+                                    <img src="./images/pancake.png" alt="">
+                                </div>
+                                <div class="text_content ms-2 ">
+                                    <h5>Pancakes</h5>
+                                    <p>Lorem Ipsum is dummy</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="map_section content-inner bg-gray"
+        style="background-image:url(/images/service-section.jpg) ; background-size:cover;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="subheading_sec">
+                        <h2>Sale And Delivery Points</h2>
+                        <p class="text-bold">Where to buy our high quality Cake</p>
+                        <div class="seperator style1"></div>
+                    </div>
+                    <div class="map_content">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley. </p>
+
+                        <p> First and foremost I am a chef, whether behind the stove at one of my Northern California
+                            restaurants or for the past 15 years in front of the Lorem Ipsum is simply
+                            <strong>Bakery</strong> dummy text
+                            of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                            text ever since the 1500s, when an unknown printer took.
+                        </p>
+
+                        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley.
+                        </p>
+                        <a class="btn btnhover shadow mt-3" href=""><i class="fa fa-angle-double-right"></i> More
+                            details </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="accordion_sec">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item faqstyle">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Accordion Item #1
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <img src="./images/map.1c1e8ec0.png" alt="" class="img-fluid">
+                                        <div>
+                                            <ul class="list-check mb-0 primary">
+                                                <li><i class="fa-solid fa-check"></i><a href="">Germany 26</a></li>
+                                                <li><i class="fa-solid fa-check"></i><a href="">Germany 26</a></li>
+                                                <li><i class="fa-solid fa-check"></i><a href="">Germany 26</a></li>
+                                                <li><i class="fa-solid fa-check"></i><a href="">Germany 26</a></li>
+                                                <li><i class="fa-solid fa-check"></i><a href="">Germany 26</a></li>
+                                                <li><i class="fa-solid fa-check"></i><a href="">Germany 26</a></li>
+                                                <li><i class="fa-solid fa-check"></i><a href="">Germany 26</a></li>
+                                                <li><i class="fa-solid fa-check"></i><a href="">Germany 26</a></li>
+                                                <li><i class="fa-solid fa-check"></i><a href="">Germany 26</a></li>
+                                                <li><i class="fa-solid fa-check"></i><a href="">Germany 26</a></li>
+                                                <li><i class="fa-solid fa-check"></i><a href="">Germany 26</a></li>
+                                                <li><i class="fa-solid fa-check"></i><a href="">Germany 26</a></li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Accordion Item #2
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>This is the second item's accordion body.</strong> It is hidden by
+                                        default, until the collapse plugin adds the appropriate classes that we use to
+                                        style each element. These classes control the overall appearance, as well as the
+                                        showing and hiding via CSS transitions. You can modify any of this with custom
+                                        CSS or overriding our default variables. It's also worth noting that just about
+                                        any HTML can go within the <code>.accordion-body</code>, though the transition
+                                        does limit overflow.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Accordion Item #3
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>This is the third item's accordion body.</strong> It is hidden by
+                                        default, until the collapse plugin adds the appropriate classes that we use to
+                                        style each element. These classes control the overall appearance, as well as the
+                                        showing and hiding via CSS transitions. You can modify any of this with custom
+                                        CSS or overriding our default variables. It's also worth noting that just about
+                                        any HTML can go within the <code>.accordion-body</code>, though the transition
+                                        does limit overflow.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="four_box_sec">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="box_content position-relative">
+                        <div class="media">
+                            <img src="./images/pie1.jpg" alt="">
+                        </div>
+                        <div class="box_content_text ">
+                            <h5>Vegan Pie</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="box_content position-relative ">
+                        <div class="media">
+                            <img src="./images/pie2.jpg" alt="">
+                        </div>
+                        <div class="box_content_text">
+                            <h5>Vegan Pie</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="box_content position-relative">
+                        <div class="media">
+                            <img src="./images/pie3.jpg" alt="">
+                        </div>
+                        <div class="box_content_text ">
+                            <h5>Vegan Pie</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="box_content position-relative">
+                        <div class="media">
+                            <img src="./images/pie2.jpg" alt="">
+                        </div>
+                        <div class="box_content_text ">
+                            <h5>Vegan Pie</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cup Cake Start-->
+    <div class="cupcake_section text-center content-inner"
+        style="background-image: url(/images/bg5.74609cce.jpg); background-size: cover;">
+        <div class="cup-cake-inner text-center">
+            <img src="./images/cake1.a135215d.jpg" alt="">
+        </div>
+        <div class="container">
+            <div class="cake_content text-center text-bold">
+                <h2>We Are Professional at Our Skills</h2>
+                <p>More than 2000+ customers trusted us</p>
+
+            </div>
+            <div class="counter pt-5 ">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-6 mb-2 ">
+                        <div class="client_counter_content">
+                            <h1>53<span>+</span></h1>
+                            <p>Years of Experience</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-6 mb-2 ">
+                        <div class="client_counter_content">
+                            <h1>102</h1>
+                            <p>Years of Experience</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-6 mb-2 ">
+                        <div class="client_counter_content">
+                            <h1>36<span>k</span></h1>
+                            <p>Years of Experience</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-6 mb-2 ">
+                        <div class="client_counter_content">
+                            <h1>99</h1>
+                            <p>Years of Experience</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Counter End -->
+    <!-- Offer Box -->
+    <div class="offer_banner_section " style="background-image: url(/images/bg5.74609cce.jpg) ; background-size:cover;">
+        <div class="container">
+            <div class="row about-real">
+                <div class="col-lg-6 p-0 ">
+                    <div class="img-content">
+                        <img src="./images/offer.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-6 d-flex align-items-center text-center p-0 bg-color">
+                    <div class="text-content text-center text-white">
+                        <h4>Limited Time Offer</h4>
+                        <p>Wedding Cake Sale !</p>
+                        <div class="icon-bx">
+                            <img src="./images/pancake.png" alt="">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore</p>
+                        <a class="d-inline-block btn btnhover btn-md btn-secondry" href="">GET NOW</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Offer Box end -->
+
+    <!-- Client Brands -->
+    <div class="client_brand_section "
+        style="background-image: url(/images/bg5.74609cce.jpg) ; background-size: cover;">
+        <div class="container">
+            <div class="row client-area pt-5">
+                <div class="col-lg-2 col-md-4 col-sm-4 col-6 mb-5 ">
+                    <div class="client_logo " data-name="Bakery">
+                        <img src="./images/logo1.4fb43442.jpg" alt="" class="img-fluid">
+                    </div>
+
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-4 col-6 mb-5 ">
+                    <div class="client_logo " data-name="Bakery">
+                        <img src="./images/logo1.4fb43442.jpg" alt="" class="img-fluid">
+                    </div>
+
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-4 col-6 mb-5 ">
+                    <div class="client_logo " data-name="Bakery">
+                        <img src="./images/logo1.4fb43442.jpg" alt="" class="img-fluid">
+                    </div>
+
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-4 col-6 mb-5 ">
+                    <div class="client_logo " data-name="Bakery">
+                        <img src="./images/logo1.4fb43442.jpg" alt="" class="img-fluid">
+                    </div>
+
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-4 col-6 mb-5 ">
+                    <div class="client_logo " data-name="Bakery">
+                        <img src="./images/logo1.4fb43442.jpg" alt="" class="img-fluid">
+                    </div>
+
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-4 col-6 mb-5 ">
+                    <div class="client_logo " data-name="Bakery">
+                        <img src="./images/logo1.4fb43442.jpg" alt="" class="img-fluid">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Client Brands End-->
+    <!-- Cup Cake Start-->
+    <div class="cupcake_section text-center pt-5"
+        style="background-image: url(/images/bg5.74609cce.jpg) ; background-size: cover;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="cup-cake-inner text-center">
+                        <img src="./images/cake1.a135215d.jpg" class="img-fluid" alt="">
+
+                        <div class="cake_content">
+                            <h3>From The Blog</h3>
+                            <p>Latest news and updates</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Cup Cake End -->
+    <!-- Quick Block Section -->
+    <div class="quick_blog_section " style="background-image: url(/images/bg5.74609cce.jpg); background-size:cover;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="blog_content shadow bg-white">
+                        <img src="./images/pic1.321ba415.jpg" alt="" class="img-fluid">
+                        <div class="content_blog p-4">
+                            <h4><a href="">Understand The Background Of Bakery Now.</a></h4>
+                            <div><i></i>Cake, Biscuits</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="blog_content shadow bg-white">
+                        <img src="./images/pic1.321ba415.jpg" alt="" class="img-fluid">
+                        <div class="content_blog p-4">
+                            <h4><a href="">Understand The Background Of Bakery Now.</a></h4>
+                            <div><i></i>Cake, Biscuits</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="blog_content shadow bg-white">
+                        <img src="./images/pic1.321ba415.jpg" alt="" class="img-fluid">
+                        <div class="content_blog p-4">
+                            <h4><a href="">Understand The Background Of Bakery Now.</a></h4>
+                            <div><i></i>Cake, Biscuits</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Quick Block Section End -->
+    <footer class="footer-sec  bg-line-top"
+        style="background-image: url(/images/footer.jpg) ; background-size: cover;">
+        <div class="site-footer py-5">
+            <div class="container text-white">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="footer_content">
+                            <h2>Contact Us</h2>
+                            <ul class="m-0 p-0">
+                                <li class="d-flex position-relative">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <p>Marmora City, Vietnam</p>
+                                </li>
+                                <li class="d-flex position-relative">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <p>Marmora City, Vietnam</p>
+                                </li>
+                                <li class="d-flex position-relative">
+                                    <i class="fa-sharp fa-solid fa-phone-volume"></i>
+                                    <p>Marmora City, Vietnam</p>
+                                </li>
+                                <li class="d-flex position-relative">
+                                    <i class="fa-light fa-envelopes-bulk"></i>
+                                    <p>Marmora City, Vietnam</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="footer_content">
+                            <h2>Recent Post </h2>
+                            <div class="recent_post_thumb d-flex mb-3">
+                                <img src="./images/post-1.jpg" alt="" class="img-fluid">
+                                <div class="post_content">
+                                    <h4 class="px-2">The Background Of Bakery Now</h4>
+                                    <p class="d-flex px-2"><i></i> March 25, 2020</p>
+                                </div>
+                            </div>
+                            <div class="recent_post_thumb d-flex">
+                                <img src="./images/post-1.jpg" alt="" class="img-fluid">
+                                <div class="post_content">
+                                    <h4 class="px-2">The Background Of Bakery Now</h4>
+                                    <p class="d-flex px-2"><i></i> March 25, 2020</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="footer_content-two">
+                            <h2>Quick Links</h2>
+                            <div class="quilink_content d-flex justify-between-space">
+                                <ul class="p-0 me-5 w-50">
+                                    <li>
+                                        <i class="fa-solid fa-angle-right"></i><a href="">Home</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-angle-right"></i><a href="">Home</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-angle-right"></i><a href="">Home</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-angle-right"></i><a href="">Home</a>
+                                    </li>
+                                </ul>
+                                <ul class="p-0 m-0 w-50">
+                                    <li>
+                                        <i class="fa-solid fa-angle-right"></i><a href="">Home</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-angle-right"></i><a href="">Home</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-angle-right"></i><a href="">Home</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-angle-right"></i><a href="">Home</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="footer_content">
+                            <h2>Opening Hours</h2>
+                            <div class="opening_hours">
+                                <p>Our support available to help you 24 hours a day, seven days a week.</p>
+                                <div class="hours_items text-white">
+                                    <div class="d-flex justify-between-space border-bottom boder-white pb-3  mb-3">
+                                        <span>Monday to Friday</span>
+                                        <span>7AM - 5PM</span>
+                                    </div>
+                                    <div class="d-flex justify-between-space border-bottom boder-white pb-3  mb-3">
+                                        <span>Monday to Friday</span>
+                                        <span>7AM - 5PM</span>
+                                    </div>
+                                    <div class="d-flex justify-between-space border-bottom boder-white pb-3  mb-3">
+                                        <span>Monday to Friday</span>
+                                        <span>7AM - 5PM</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="copyright py-4 ">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center text-white">
+                <div>Copyright © 2021 DexignZone. all rights reserved.</div>
+                <ul class="d-flex m-0 p-0 ">
+                    <li>
+                        <a href="About Us">About Us !!</a>
+                    </li>
+
+                    <li>
+                        <a href="About Us">Faq</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js//jquery-3.6.1.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.carausel_item').slick({
+                arrows: true,
+                prevArrow: "<button type='button' class='slick-prev pull-left'>&#x3c;</button>",
+                nextArrow: "<button type='button' class='slick-next pull-right'>&#x3e;</button>"
+            });
+        })
+    </script>
+</body>
+
+</html>
