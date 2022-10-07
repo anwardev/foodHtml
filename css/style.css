@@ -39,7 +39,7 @@
 
 .logo {
     width: 170px;
-    position: absolute;
+    /* position: absolute; */
     z-index: 1;
     top: -3px;
 }
@@ -111,21 +111,22 @@ a.nav-link.dropdown-toggle.active {
 }
 
 .background-inner .slick-arrow {
+    color: #fff;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     z-index: 9;
     background: transparent;
     border: 0;
-    font-size: 100px;
+    font-size: 70px;
 }
 
 .background-inner .slick-arrow.slick-prev {
-    left: 10px;
+    left: 100px;
 }
 
 .background-inner .slick-arrow.slick-next {
-    right: 10px;
+    right: 100px;
 }
 
 .carausel_item .background-img .content span {
