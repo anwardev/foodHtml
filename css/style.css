@@ -7,6 +7,7 @@
 
 .header_wrapper {
     justify-content: space-around;
+    justify-content: space-between;
 }
 
 .min-title {
@@ -681,6 +682,7 @@ h2.cup-cake-inner {
 @media (max-width: 991px){
     .header_wrapper {
         display: flex;
+        flex-direction: column;
     }
     .main-nav-bar::after{
         bottom: -6px;
